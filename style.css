@@ -33,11 +33,6 @@ body{
     justify-content: center;
     width: 450px;
 }
-.content-cell{
-    position: absolute;
-    top: 200px;
-    right: 550px;
-}
 
 .instagram-continue{
     display: flex;
