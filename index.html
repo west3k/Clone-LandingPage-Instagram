@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./img/instagram-icon.png" type="image/x-icon">
     <title>Instagram</title>
 </head>
+
 <body>
-    <div class="instagram-wrapper">
-        <div class="instagram-phone">
-            <img src="./img/instagram-celular2.png" alt="celular">
-        </div>
-        <div class="instagram-continue">
+    <main class="instagram-wrapper">
+        <article class="instagram-phone">
+            <img src="./img/instagram-celular.png" alt="celular">
+            <img src="./img/conteudo-celular.jpg" alt="content-cell" class="content-cell">
+        </article>
+        <article class="instagram-continue">
             <div class="group">
                 <img src="./img/instagram-logo.png" class="instagram-logo" alt="instagram logo">
                 <div class="profile-photo">
@@ -40,7 +44,42 @@
                     <a href="#" class="app-download"></a>
                 </div>
             </div>
-        </div>
-    </div>
+        </article>
+    </main>
+
+    <footer class="rodape">
+        <ul class="list">
+            <li><a href="">Sobre</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Ajuda</a></li>
+            <li><a href="">API</a></li>
+            <li><a href="">Privacidade</a></li>
+            <li><a href="">Termos</a></li>
+            <li><a href="">Contas mais relevantes</a></li>
+            <li><a href="">Hashtags</a></li>
+            <li><a href="">localizações</a></li>
+        </ul>
+        <ul class="list">
+            <li><a href="">Beleza</a></li>
+            <li><a href="">Dança e apresentação</a></li>
+            <li><a href="">Fitness</a></li>
+            <li><a href="">Comida e bebida</a></li>
+            <li><a href="">Casa e jardim</a></li>
+            <li><a href="">Música</a></li>
+            <li><a href="">Artes visuais</a></li>
+        </ul>
+
+        <p>
+            <select name="language" id="idioma" class="language-select">
+                <option class="language-option" value="portugues">Portugês (Brasil)</option>
+                <option class="language-option" value="ingles">Inglês</option>
+                <option class="language-option" value="espanhol">Espanhol</option>
+            </select>   
+
+            &copy Instagram do Facebook
+        </p>
+
+    </footer>
 </body>
+
 </html>
